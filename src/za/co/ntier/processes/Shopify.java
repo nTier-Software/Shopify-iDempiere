@@ -107,6 +107,10 @@ public class Shopify extends SvrProcess {
 			}
 			// adjust startDateTime time to current time minus 10 min
 			startDateTime = LocalDateTime.now().minusMinutes(10).format(DateTimeFormatter.ISO_DATE_TIME);
+			Integer maxSize = 19;
+			if(startDateTime.length() > maxSize ){
+				startDateTime = startDateTime.substring(0, maxSize);
+			}
 			sfDefaults.set_ValueOfColumn("syncfrom", startDateTime);
 			sfDefaults.saveEx();
 		}

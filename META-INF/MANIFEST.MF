@@ -1,9 +1,10 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: Shopify-ntier
 Bundle-ManifestVersion: 2
 Bundle-Name: Shopify-ntier
 Bundle-SymbolicName: za.co.ntier.shopify;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-14
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.adempiere.base;bundle-version="8.1.0",
  org.adempiere.plugin.utils;bundle-version="8.1.0",
  org.eclipse.equinox.ds;bundle-version="1.6.200",
