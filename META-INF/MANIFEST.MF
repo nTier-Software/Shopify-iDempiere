@@ -24,5 +24,4 @@ Bundle-ClassPath: .,
  commons-logging.jar,
  com.fasterxml.jackson.core.jackson-annotations_2.10.0.jar
 Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
-Import-Package: org.osgi.framework;version="1.10.0"
 Bundle-ActivationPolicy: lazy
